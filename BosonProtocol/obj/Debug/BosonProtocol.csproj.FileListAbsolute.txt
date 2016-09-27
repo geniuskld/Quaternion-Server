@@ -1,0 +1,5 @@
+C:\Users\goryanin.INFOSYSTEM\Documents\Visual Studio 2015\Projects\ClientExtensionsBase\BosonProtocol\bin\Debug\BosonProtocol.dll
+C:\Users\goryanin.INFOSYSTEM\Documents\Visual Studio 2015\Projects\ClientExtensionsBase\BosonProtocol\bin\Debug\BosonProtocol.pdb
+C:\Users\goryanin.INFOSYSTEM\Documents\Visual Studio 2015\Projects\ClientExtensionsBase\BosonProtocol\obj\Debug\BosonProtocol.csprojResolveAssemblyReference.cache
+C:\Users\goryanin.INFOSYSTEM\Documents\Visual Studio 2015\Projects\ClientExtensionsBase\BosonProtocol\obj\Debug\BosonProtocol.dll
+C:\Users\goryanin.INFOSYSTEM\Documents\Visual Studio 2015\Projects\ClientExtensionsBase\BosonProtocol\obj\Debug\BosonProtocol.pdb

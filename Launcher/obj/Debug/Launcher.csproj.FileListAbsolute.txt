@@ -1,0 +1,15 @@
+C:\Users\goryanin.INFOSYSTEM\Documents\Visual Studio 2015\Projects\ClientExtensionsBase\Launcher\bin\Debug\Launcher.dll
+C:\Users\goryanin.INFOSYSTEM\Documents\Visual Studio 2015\Projects\ClientExtensionsBase\Launcher\bin\Debug\Launcher.pdb
+C:\Users\goryanin.INFOSYSTEM\Documents\Visual Studio 2015\Projects\ClientExtensionsBase\Launcher\bin\Debug\PluginBase.dll
+C:\Users\goryanin.INFOSYSTEM\Documents\Visual Studio 2015\Projects\ClientExtensionsBase\Launcher\bin\Debug\SocketServer.dll
+C:\Users\goryanin.INFOSYSTEM\Documents\Visual Studio 2015\Projects\ClientExtensionsBase\Launcher\bin\Debug\Transport.dll
+C:\Users\goryanin.INFOSYSTEM\Documents\Visual Studio 2015\Projects\ClientExtensionsBase\Launcher\bin\Debug\BosonProtocol.dll
+C:\Users\goryanin.INFOSYSTEM\Documents\Visual Studio 2015\Projects\ClientExtensionsBase\Launcher\bin\Debug\ObjectsPool.dll
+C:\Users\goryanin.INFOSYSTEM\Documents\Visual Studio 2015\Projects\ClientExtensionsBase\Launcher\bin\Debug\PluginBase.pdb
+C:\Users\goryanin.INFOSYSTEM\Documents\Visual Studio 2015\Projects\ClientExtensionsBase\Launcher\bin\Debug\SocketServer.pdb
+C:\Users\goryanin.INFOSYSTEM\Documents\Visual Studio 2015\Projects\ClientExtensionsBase\Launcher\bin\Debug\Transport.pdb
+C:\Users\goryanin.INFOSYSTEM\Documents\Visual Studio 2015\Projects\ClientExtensionsBase\Launcher\bin\Debug\BosonProtocol.pdb
+C:\Users\goryanin.INFOSYSTEM\Documents\Visual Studio 2015\Projects\ClientExtensionsBase\Launcher\bin\Debug\ObjectsPool.pdb
+C:\Users\goryanin.INFOSYSTEM\Documents\Visual Studio 2015\Projects\ClientExtensionsBase\Launcher\obj\Debug\Launcher.csprojResolveAssemblyReference.cache
+C:\Users\goryanin.INFOSYSTEM\Documents\Visual Studio 2015\Projects\ClientExtensionsBase\Launcher\obj\Debug\Launcher.dll
+C:\Users\goryanin.INFOSYSTEM\Documents\Visual Studio 2015\Projects\ClientExtensionsBase\Launcher\obj\Debug\Launcher.pdb

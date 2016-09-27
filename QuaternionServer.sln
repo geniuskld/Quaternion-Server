@@ -1,0 +1,192 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientExtensionsBase", "ClientExtensionsBase\ClientExtensionsBase.csproj", "{6F7BC5F3-910F-411B-ADC2-E3572832026E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{242C3CB9-6C1E-4582-B1B0-B4E84409A505}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Server", "Server", "{0B74D41C-D81D-4599-A2E1-F6DDEC0D4D21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuaternionProtocol", "BosonProtocol\QuaternionProtocol.csproj", "{7BFDA634-9654-44D8-AE0E-FDCA6284516D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityExtension", "UnityExtension\UnityExtension.csproj", "{02104D08-4788-42C8-918C-E760E26AFB3D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Transports", "Transports", "{BCCB1E48-EA08-4449-A2A9-C165337F3FB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{2E3DF5C2-8A38-4A03-86D7-8D463C917E47}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{436CD2F6-978E-4148-B693-334AB26ED6E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Transport", "Transport\Transport.csproj", "{18754433-15C4-4478-AC06-C68533451FF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocketServer", "SocketServer\SocketServer.csproj", "{7F3C4879-FD24-4E39-AAFF-417088D2EB9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectsPool", "ObjectsPool\ObjectsPool.csproj", "{CF05EEDF-1CF9-4D6E-83E4-420A66B0A15B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Plugins", "Plugins", "{915EDA1F-EA1E-4871-900C-B797FD9731BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PluginBase", "Plugin\PluginBase.csproj", "{D8A94093-5ADC-4E93-8F4F-16417CC705A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PluginLauncher", "PluginLauncher\PluginLauncher.csproj", "{EB81340D-1CB9-434C-89E9-FE4F29C45B99}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{2B2AEE4E-55ED-41BE-A58C-2BEA14009804}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocketServerLauncher", "Test\SocketServerLauncher\SocketServerLauncher.csproj", "{A99B1320-ABFB-4043-B4C6-4B0BE4D5AF8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocketServerClient", "Test\SocketServerClient\SocketServerClient.csproj", "{A343FAE6-6963-44CB-9CC0-75D3FC33A1DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Launcher", "Launcher\Launcher.csproj", "{531B5458-131B-45D1-8268-0887A57FB30F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameBasePlugin", "GameBasePlugin\GameBasePlugin.csproj", "{6CC74BAD-59DE-4481-B8D4-299E040FC94C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientGamePlugin", "ClientPluginBase\ClientGamePlugin.csproj", "{C1F6123D-22F8-4533-AD56-08A7E3583661}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6F7BC5F3-910F-411B-ADC2-E3572832026E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F7BC5F3-910F-411B-ADC2-E3572832026E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F7BC5F3-910F-411B-ADC2-E3572832026E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F7BC5F3-910F-411B-ADC2-E3572832026E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BFDA634-9654-44D8-AE0E-FDCA6284516D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BFDA634-9654-44D8-AE0E-FDCA6284516D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BFDA634-9654-44D8-AE0E-FDCA6284516D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BFDA634-9654-44D8-AE0E-FDCA6284516D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02104D08-4788-42C8-918C-E760E26AFB3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02104D08-4788-42C8-918C-E760E26AFB3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02104D08-4788-42C8-918C-E760E26AFB3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02104D08-4788-42C8-918C-E760E26AFB3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E3DF5C2-8A38-4A03-86D7-8D463C917E47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E3DF5C2-8A38-4A03-86D7-8D463C917E47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E3DF5C2-8A38-4A03-86D7-8D463C917E47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E3DF5C2-8A38-4A03-86D7-8D463C917E47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18754433-15C4-4478-AC06-C68533451FF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18754433-15C4-4478-AC06-C68533451FF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18754433-15C4-4478-AC06-C68533451FF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18754433-15C4-4478-AC06-C68533451FF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F3C4879-FD24-4E39-AAFF-417088D2EB9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F3C4879-FD24-4E39-AAFF-417088D2EB9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F3C4879-FD24-4E39-AAFF-417088D2EB9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F3C4879-FD24-4E39-AAFF-417088D2EB9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF05EEDF-1CF9-4D6E-83E4-420A66B0A15B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF05EEDF-1CF9-4D6E-83E4-420A66B0A15B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF05EEDF-1CF9-4D6E-83E4-420A66B0A15B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF05EEDF-1CF9-4D6E-83E4-420A66B0A15B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8A94093-5ADC-4E93-8F4F-16417CC705A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8A94093-5ADC-4E93-8F4F-16417CC705A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8A94093-5ADC-4E93-8F4F-16417CC705A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8A94093-5ADC-4E93-8F4F-16417CC705A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB81340D-1CB9-434C-89E9-FE4F29C45B99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB81340D-1CB9-434C-89E9-FE4F29C45B99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB81340D-1CB9-434C-89E9-FE4F29C45B99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB81340D-1CB9-434C-89E9-FE4F29C45B99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A99B1320-ABFB-4043-B4C6-4B0BE4D5AF8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A99B1320-ABFB-4043-B4C6-4B0BE4D5AF8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A99B1320-ABFB-4043-B4C6-4B0BE4D5AF8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A99B1320-ABFB-4043-B4C6-4B0BE4D5AF8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A343FAE6-6963-44CB-9CC0-75D3FC33A1DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A343FAE6-6963-44CB-9CC0-75D3FC33A1DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A343FAE6-6963-44CB-9CC0-75D3FC33A1DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A343FAE6-6963-44CB-9CC0-75D3FC33A1DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{531B5458-131B-45D1-8268-0887A57FB30F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{531B5458-131B-45D1-8268-0887A57FB30F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{531B5458-131B-45D1-8268-0887A57FB30F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{531B5458-131B-45D1-8268-0887A57FB30F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CC74BAD-59DE-4481-B8D4-299E040FC94C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CC74BAD-59DE-4481-B8D4-299E040FC94C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CC74BAD-59DE-4481-B8D4-299E040FC94C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CC74BAD-59DE-4481-B8D4-299E040FC94C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1F6123D-22F8-4533-AD56-08A7E3583661}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1F6123D-22F8-4533-AD56-08A7E3583661}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1F6123D-22F8-4533-AD56-08A7E3583661}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1F6123D-22F8-4533-AD56-08A7E3583661}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6F7BC5F3-910F-411B-ADC2-E3572832026E} = {242C3CB9-6C1E-4582-B1B0-B4E84409A505}
+		{7BFDA634-9654-44D8-AE0E-FDCA6284516D} = {436CD2F6-978E-4148-B693-334AB26ED6E4}
+		{02104D08-4788-42C8-918C-E760E26AFB3D} = {242C3CB9-6C1E-4582-B1B0-B4E84409A505}
+		{BCCB1E48-EA08-4449-A2A9-C165337F3FB2} = {0B74D41C-D81D-4599-A2E1-F6DDEC0D4D21}
+		{2E3DF5C2-8A38-4A03-86D7-8D463C917E47} = {2B2AEE4E-55ED-41BE-A58C-2BEA14009804}
+		{18754433-15C4-4478-AC06-C68533451FF2} = {436CD2F6-978E-4148-B693-334AB26ED6E4}
+		{7F3C4879-FD24-4E39-AAFF-417088D2EB9A} = {BCCB1E48-EA08-4449-A2A9-C165337F3FB2}
+		{CF05EEDF-1CF9-4D6E-83E4-420A66B0A15B} = {0B74D41C-D81D-4599-A2E1-F6DDEC0D4D21}
+		{915EDA1F-EA1E-4871-900C-B797FD9731BA} = {0B74D41C-D81D-4599-A2E1-F6DDEC0D4D21}
+		{D8A94093-5ADC-4E93-8F4F-16417CC705A6} = {915EDA1F-EA1E-4871-900C-B797FD9731BA}
+		{EB81340D-1CB9-434C-89E9-FE4F29C45B99} = {915EDA1F-EA1E-4871-900C-B797FD9731BA}
+		{A99B1320-ABFB-4043-B4C6-4B0BE4D5AF8A} = {2B2AEE4E-55ED-41BE-A58C-2BEA14009804}
+		{A343FAE6-6963-44CB-9CC0-75D3FC33A1DF} = {2B2AEE4E-55ED-41BE-A58C-2BEA14009804}
+		{531B5458-131B-45D1-8268-0887A57FB30F} = {0B74D41C-D81D-4599-A2E1-F6DDEC0D4D21}
+		{6CC74BAD-59DE-4481-B8D4-299E040FC94C} = {915EDA1F-EA1E-4871-900C-B797FD9731BA}
+		{C1F6123D-22F8-4533-AD56-08A7E3583661} = {242C3CB9-6C1E-4582-B1B0-B4E84409A505}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 15
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://tfs:8080/tfs/timvi
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ClientExtensionsBase\\ClientExtensionsBase.csproj
+		SccProjectTopLevelParentUniqueName1 = QuaternionServer.sln
+		SccProjectName1 = ClientExtensionsBase
+		SccLocalPath1 = ClientExtensionsBase
+		SccProjectUniqueName2 = UnityExtension\\UnityExtension.csproj
+		SccProjectTopLevelParentUniqueName2 = QuaternionServer.sln
+		SccProjectName2 = UnityExtension
+		SccLocalPath2 = UnityExtension
+		SccProjectUniqueName3 = Tests\\Tests.csproj
+		SccProjectTopLevelParentUniqueName3 = QuaternionServer.sln
+		SccProjectName3 = Tests
+		SccLocalPath3 = Tests
+		SccProjectUniqueName4 = Transport\\Transport.csproj
+		SccProjectTopLevelParentUniqueName4 = QuaternionServer.sln
+		SccProjectName4 = Transport
+		SccLocalPath4 = Transport
+		SccProjectUniqueName5 = ObjectsPool\\ObjectsPool.csproj
+		SccProjectTopLevelParentUniqueName5 = QuaternionServer.sln
+		SccProjectName5 = ObjectsPool
+		SccLocalPath5 = ObjectsPool
+		SccProjectUniqueName6 = SocketServer\\SocketServer.csproj
+		SccProjectTopLevelParentUniqueName6 = QuaternionServer.sln
+		SccProjectName6 = SocketServer
+		SccLocalPath6 = SocketServer
+		SccProjectUniqueName7 = Plugin\\PluginBase.csproj
+		SccProjectTopLevelParentUniqueName7 = QuaternionServer.sln
+		SccProjectName7 = Plugin
+		SccLocalPath7 = Plugin
+		SccProjectUniqueName8 = PluginLauncher\\PluginLauncher.csproj
+		SccProjectTopLevelParentUniqueName8 = QuaternionServer.sln
+		SccProjectName8 = PluginLauncher
+		SccLocalPath8 = PluginLauncher
+		SccProjectUniqueName9 = Test\\SocketServerLauncher\\SocketServerLauncher.csproj
+		SccProjectTopLevelParentUniqueName9 = QuaternionServer.sln
+		SccProjectName9 = Test/SocketServerLauncher
+		SccLocalPath9 = Test\\SocketServerLauncher
+		SccProjectUniqueName10 = Test\\SocketServerClient\\SocketServerClient.csproj
+		SccProjectTopLevelParentUniqueName10 = QuaternionServer.sln
+		SccProjectName10 = Test/SocketServerClient
+		SccLocalPath10 = Test\\SocketServerClient
+		SccProjectUniqueName11 = Launcher\\Launcher.csproj
+		SccProjectTopLevelParentUniqueName11 = QuaternionServer.sln
+		SccProjectName11 = Launcher
+		SccLocalPath11 = Launcher
+		SccProjectUniqueName12 = BosonProtocol\\QuaternionProtocol.csproj
+		SccProjectTopLevelParentUniqueName12 = QuaternionServer.sln
+		SccProjectName12 = BosonProtocol
+		SccLocalPath12 = BosonProtocol
+		SccProjectUniqueName13 = GameBasePlugin\\GameBasePlugin.csproj
+		SccProjectTopLevelParentUniqueName13 = QuaternionServer.sln
+		SccProjectName13 = GameBasePlugin
+		SccLocalPath13 = GameBasePlugin
+		SccProjectUniqueName14 = ClientPluginBase\\ClientGamePlugin.csproj
+		SccProjectTopLevelParentUniqueName14 = QuaternionServer.sln
+		SccProjectName14 = ClientPluginBase
+		SccLocalPath14 = ClientPluginBase
+	EndGlobalSection
+EndGlobal

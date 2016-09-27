@@ -1,0 +1,12 @@
+C:\Users\goryanin.INFOSYSTEM\Documents\Visual Studio 2015\Projects\ClientExtensionsBase\Test\SocketServerClient\bin\Debug\SocketServerClient.exe.config
+C:\Users\goryanin.INFOSYSTEM\Documents\Visual Studio 2015\Projects\ClientExtensionsBase\Test\SocketServerClient\bin\Debug\SocketServerClient.exe
+C:\Users\goryanin.INFOSYSTEM\Documents\Visual Studio 2015\Projects\ClientExtensionsBase\Test\SocketServerClient\bin\Debug\SocketServerClient.pdb
+C:\Users\goryanin.INFOSYSTEM\Documents\Visual Studio 2015\Projects\ClientExtensionsBase\Test\SocketServerClient\bin\Debug\BosonProtocol.dll
+C:\Users\goryanin.INFOSYSTEM\Documents\Visual Studio 2015\Projects\ClientExtensionsBase\Test\SocketServerClient\bin\Debug\ClientExtensionsBase.dll
+C:\Users\goryanin.INFOSYSTEM\Documents\Visual Studio 2015\Projects\ClientExtensionsBase\Test\SocketServerClient\bin\Debug\Transport.dll
+C:\Users\goryanin.INFOSYSTEM\Documents\Visual Studio 2015\Projects\ClientExtensionsBase\Test\SocketServerClient\bin\Debug\BosonProtocol.pdb
+C:\Users\goryanin.INFOSYSTEM\Documents\Visual Studio 2015\Projects\ClientExtensionsBase\Test\SocketServerClient\bin\Debug\ClientExtensionsBase.pdb
+C:\Users\goryanin.INFOSYSTEM\Documents\Visual Studio 2015\Projects\ClientExtensionsBase\Test\SocketServerClient\bin\Debug\Transport.pdb
+C:\Users\goryanin.INFOSYSTEM\Documents\Visual Studio 2015\Projects\ClientExtensionsBase\Test\SocketServerClient\obj\Debug\SocketServerClient.csprojResolveAssemblyReference.cache
+C:\Users\goryanin.INFOSYSTEM\Documents\Visual Studio 2015\Projects\ClientExtensionsBase\Test\SocketServerClient\obj\Debug\SocketServerClient.exe
+C:\Users\goryanin.INFOSYSTEM\Documents\Visual Studio 2015\Projects\ClientExtensionsBase\Test\SocketServerClient\obj\Debug\SocketServerClient.pdb

@@ -1,0 +1,11 @@
+c:\users\goryanin.infosystem\documents\visual studio 2015\Projects\ClientExtensionsBase\SocketServer\obj\Debug\SocketServer.csprojResolveAssemblyReference.cache
+c:\users\goryanin.infosystem\documents\visual studio 2015\Projects\ClientExtensionsBase\SocketServer\bin\Debug\SocketServer.dll
+c:\users\goryanin.infosystem\documents\visual studio 2015\Projects\ClientExtensionsBase\SocketServer\bin\Debug\SocketServer.pdb
+c:\users\goryanin.infosystem\documents\visual studio 2015\Projects\ClientExtensionsBase\SocketServer\bin\Debug\BosonProtocol.dll
+c:\users\goryanin.infosystem\documents\visual studio 2015\Projects\ClientExtensionsBase\SocketServer\bin\Debug\ObjectsPool.dll
+c:\users\goryanin.infosystem\documents\visual studio 2015\Projects\ClientExtensionsBase\SocketServer\bin\Debug\Transport.dll
+c:\users\goryanin.infosystem\documents\visual studio 2015\Projects\ClientExtensionsBase\SocketServer\bin\Debug\BosonProtocol.pdb
+c:\users\goryanin.infosystem\documents\visual studio 2015\Projects\ClientExtensionsBase\SocketServer\bin\Debug\ObjectsPool.pdb
+c:\users\goryanin.infosystem\documents\visual studio 2015\Projects\ClientExtensionsBase\SocketServer\bin\Debug\Transport.pdb
+c:\users\goryanin.infosystem\documents\visual studio 2015\Projects\ClientExtensionsBase\SocketServer\obj\Debug\SocketServer.dll
+c:\users\goryanin.infosystem\documents\visual studio 2015\Projects\ClientExtensionsBase\SocketServer\obj\Debug\SocketServer.pdb

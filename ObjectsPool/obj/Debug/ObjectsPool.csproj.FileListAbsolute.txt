@@ -1,0 +1,5 @@
+c:\users\goryanin.infosystem\documents\visual studio 2015\Projects\ClientExtensionsBase\ObjectsPool\bin\Debug\ObjectsPool.dll
+c:\users\goryanin.infosystem\documents\visual studio 2015\Projects\ClientExtensionsBase\ObjectsPool\bin\Debug\ObjectsPool.pdb
+c:\users\goryanin.infosystem\documents\visual studio 2015\Projects\ClientExtensionsBase\ObjectsPool\obj\Debug\ObjectsPool.csprojResolveAssemblyReference.cache
+c:\users\goryanin.infosystem\documents\visual studio 2015\Projects\ClientExtensionsBase\ObjectsPool\obj\Debug\ObjectsPool.dll
+c:\users\goryanin.infosystem\documents\visual studio 2015\Projects\ClientExtensionsBase\ObjectsPool\obj\Debug\ObjectsPool.pdb
