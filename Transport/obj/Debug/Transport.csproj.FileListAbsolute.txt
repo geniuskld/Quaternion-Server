@@ -1,7 +1,0 @@
-c:\users\goryanin.infosystem\documents\visual studio 2015\Projects\ClientExtensionsBase\Transport\bin\Debug\Transport.dll
-c:\users\goryanin.infosystem\documents\visual studio 2015\Projects\ClientExtensionsBase\Transport\bin\Debug\Transport.pdb
-c:\users\goryanin.infosystem\documents\visual studio 2015\Projects\ClientExtensionsBase\Transport\bin\Debug\BosonProtocol.dll
-c:\users\goryanin.infosystem\documents\visual studio 2015\Projects\ClientExtensionsBase\Transport\bin\Debug\BosonProtocol.pdb
-c:\users\goryanin.infosystem\documents\visual studio 2015\Projects\ClientExtensionsBase\Transport\obj\Debug\Transport.csprojResolveAssemblyReference.cache
-c:\users\goryanin.infosystem\documents\visual studio 2015\Projects\ClientExtensionsBase\Transport\obj\Debug\Transport.dll
-c:\users\goryanin.infosystem\documents\visual studio 2015\Projects\ClientExtensionsBase\Transport\obj\Debug\Transport.pdb

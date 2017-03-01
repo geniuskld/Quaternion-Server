@@ -1,9 +1,0 @@
-C:\Users\goryanin.INFOSYSTEM\documents\visual studio 2015\Projects\ClientExtensionsBase\Plugin\bin\Debug\PluginBase.dll
-C:\Users\goryanin.INFOSYSTEM\documents\visual studio 2015\Projects\ClientExtensionsBase\Plugin\bin\Debug\PluginBase.pdb
-C:\Users\goryanin.INFOSYSTEM\documents\visual studio 2015\Projects\ClientExtensionsBase\Plugin\bin\Debug\BosonProtocol.dll
-C:\Users\goryanin.INFOSYSTEM\documents\visual studio 2015\Projects\ClientExtensionsBase\Plugin\bin\Debug\Transport.dll
-C:\Users\goryanin.INFOSYSTEM\documents\visual studio 2015\Projects\ClientExtensionsBase\Plugin\bin\Debug\BosonProtocol.pdb
-C:\Users\goryanin.INFOSYSTEM\documents\visual studio 2015\Projects\ClientExtensionsBase\Plugin\bin\Debug\Transport.pdb
-C:\Users\goryanin.INFOSYSTEM\documents\visual studio 2015\Projects\ClientExtensionsBase\Plugin\obj\Debug\PluginBase.csprojResolveAssemblyReference.cache
-C:\Users\goryanin.INFOSYSTEM\documents\visual studio 2015\Projects\ClientExtensionsBase\Plugin\obj\Debug\PluginBase.dll
-C:\Users\goryanin.INFOSYSTEM\documents\visual studio 2015\Projects\ClientExtensionsBase\Plugin\obj\Debug\PluginBase.pdb
