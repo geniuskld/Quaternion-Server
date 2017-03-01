@@ -4,17 +4,13 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6CC74BAD-59DE-4481-B8D4-299E040FC94C}</ProjectGuid>
+    <ProjectGuid>{C7928F38-36D2-4EAE-8EC1-3252D3F3C62F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>GameBasePlugin</RootNamespace>
-    <AssemblyName>GameBasePlugin</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <RootNamespace>Quaternion.Server.Plugins.PixonicPlugin</RootNamespace>
+    <AssemblyName>Quaternion.Server.Plugins.PixonicPlugin</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <SccProjectName>SAK</SccProjectName>
-    <SccLocalPath>SAK</SccLocalPath>
-    <SccAuxPath>SAK</SccAuxPath>
-    <SccProvider>SAK</SccProvider>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -45,32 +41,30 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Commands\TCP\JoinResponse.cs" />
-    <Compile Include="Commands\TCP\LeaveRequest.cs" />
-    <Compile Include="Commands\TCP\LeaveResponse.cs" />
-    <Compile Include="ProtocolWrappers\BinaryProtocolDataContractSerializer.cs" />
-    <Compile Include="Commands\TCP\JoinRequest.cs" />
-    <Compile Include="ServerGameBaseServerPlugin.cs" />
+    <Compile Include="Commands\TCP\MessageRequest.cs" />
+    <Compile Include="Commands\TCP\MessageResponse.cs" />
+    <Compile Include="PixonicServerPlugin.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BosonProtocol\QuaternionProtocol.csproj">
-      <Project>{7bfda634-9654-44d8-ae0e-fdca6284516d}</Project>
+    <ProjectReference Include="..\..\BosonProtocol\QuaternionProtocol.csproj">
+      <Project>{7BFDA634-9654-44D8-AE0E-FDCA6284516D}</Project>
       <Name>QuaternionProtocol</Name>
     </ProjectReference>
-    <ProjectReference Include="..\ClientExtensionsBase\ClientExtensionsBase.csproj">
-      <Project>{6F7BC5F3-910F-411B-ADC2-E3572832026E}</Project>
-      <Name>ClientExtensionsBase</Name>
+    <ProjectReference Include="..\..\GameBasePlugin\GameBasePlugin.csproj">
+      <Project>{6cc74bad-59de-4481-b8d4-299e040fc94c}</Project>
+      <Name>GameBasePlugin</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Plugin\PluginBase.csproj">
-      <Project>{d8a94093-5adc-4e93-8f4f-16417cc705a6}</Project>
+    <ProjectReference Include="..\..\Plugin\PluginBase.csproj">
+      <Project>{D8A94093-5ADC-4E93-8F4F-16417CC705A6}</Project>
       <Name>PluginBase</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Transport\Transport.csproj">
-      <Project>{18754433-15c4-4478-ac06-c68533451ff2}</Project>
+    <ProjectReference Include="..\..\Transport\Transport.csproj">
+      <Project>{18754433-15C4-4478-AC06-C68533451FF2}</Project>
       <Name>Transport</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

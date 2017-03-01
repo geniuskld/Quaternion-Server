@@ -101,39 +101,39 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BosonProtocol\QuaternionProtocol.csproj">
+    <ProjectReference Include="..\..\BosonProtocol\QuaternionProtocol.csproj">
       <Project>{7bfda634-9654-44d8-ae0e-fdca6284516d}</Project>
       <Name>QuaternionProtocol</Name>
     </ProjectReference>
-    <ProjectReference Include="..\ClientExtensionsBase\ClientExtensionsBase.csproj">
+    <ProjectReference Include="..\..\ClientExtensionsBase\ClientExtensionsBase.csproj">
       <Project>{6f7bc5f3-910f-411b-adc2-e3572832026e}</Project>
       <Name>ClientExtensionsBase</Name>
     </ProjectReference>
-    <ProjectReference Include="..\ClientPluginBase\ClientGamePlugin.csproj">
+    <ProjectReference Include="..\..\ClientPluginBase\ClientGamePlugin.csproj">
       <Project>{c1f6123d-22f8-4533-ad56-08a7e3583661}</Project>
       <Name>ClientGamePlugin</Name>
     </ProjectReference>
-    <ProjectReference Include="..\GameBasePlugin\GameBasePlugin.csproj">
+    <ProjectReference Include="..\..\GameBasePlugin\GameBasePlugin.csproj">
       <Project>{6cc74bad-59de-4481-b8d4-299e040fc94c}</Project>
       <Name>GameBasePlugin</Name>
     </ProjectReference>
-    <ProjectReference Include="..\ObjectsPool\ObjectsPool.csproj">
+    <ProjectReference Include="..\..\ObjectsPool\ObjectsPool.csproj">
       <Project>{cf05eedf-1cf9-4d6e-83e4-420a66b0a15b}</Project>
       <Name>ObjectsPool</Name>
     </ProjectReference>
-    <ProjectReference Include="..\PluginLauncher\PluginLauncher.csproj">
+    <ProjectReference Include="..\..\PluginLauncher\PluginLauncher.csproj">
       <Project>{eb81340d-1cb9-434c-89e9-fe4f29c45b99}</Project>
       <Name>PluginLauncher</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Plugin\PluginBase.csproj">
+    <ProjectReference Include="..\..\Plugin\PluginBase.csproj">
       <Project>{d8a94093-5adc-4e93-8f4f-16417cc705a6}</Project>
       <Name>PluginBase</Name>
     </ProjectReference>
-    <ProjectReference Include="..\SocketServer\SocketServer.csproj">
+    <ProjectReference Include="..\..\SocketServer\SocketServer.csproj">
       <Project>{7f3c4879-fd24-4e39-aaff-417088d2eb9a}</Project>
       <Name>SocketServer</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Transport\Transport.csproj">
+    <ProjectReference Include="..\..\Transport\Transport.csproj">
       <Project>{18754433-15c4-4478-ac06-c68533451ff2}</Project>
       <Name>Transport</Name>
     </ProjectReference>

@@ -15,8 +15,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityExtension", "UnityExte
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Transports", "Transports", "{BCCB1E48-EA08-4449-A2A9-C165337F3FB2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{2E3DF5C2-8A38-4A03-86D7-8D463C917E47}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{436CD2F6-978E-4148-B693-334AB26ED6E4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Transport", "Transport\Transport.csproj", "{18754433-15C4-4478-AC06-C68533451FF2}"
@@ -43,6 +41,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameBasePlugin", "GameBaseP
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientGamePlugin", "ClientPluginBase\ClientGamePlugin.csproj", "{C1F6123D-22F8-4533-AD56-08A7E3583661}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Test\Tests\Tests.csproj", "{2E3DF5C2-8A38-4A03-86D7-8D463C917E47}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Custom", "Custom", "{28ABB218-7A8B-485C-888E-9F663878A48A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quaternion.Server.Plugins.PixonicPlugin", "Plugins\Quaternion.Server.Plugins.PixonicPlugin\Quaternion.Server.Plugins.PixonicPlugin.csproj", "{C7928F38-36D2-4EAE-8EC1-3252D3F3C62F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quaternion.Server.Plugins.PixonicPlugin.Tests", "Test\Quaternion.Server.Plugins.PixonicPlugin.Tests\Quaternion.Server.Plugins.PixonicPlugin.Tests.csproj", "{5B53DA23-A3E3-42B3-9F6B-26539CB52EC5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -61,10 +67,6 @@ Global
 		{02104D08-4788-42C8-918C-E760E26AFB3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{02104D08-4788-42C8-918C-E760E26AFB3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{02104D08-4788-42C8-918C-E760E26AFB3D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2E3DF5C2-8A38-4A03-86D7-8D463C917E47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2E3DF5C2-8A38-4A03-86D7-8D463C917E47}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2E3DF5C2-8A38-4A03-86D7-8D463C917E47}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2E3DF5C2-8A38-4A03-86D7-8D463C917E47}.Release|Any CPU.Build.0 = Release|Any CPU
 		{18754433-15C4-4478-AC06-C68533451FF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{18754433-15C4-4478-AC06-C68533451FF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{18754433-15C4-4478-AC06-C68533451FF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -105,6 +107,18 @@ Global
 		{C1F6123D-22F8-4533-AD56-08A7E3583661}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C1F6123D-22F8-4533-AD56-08A7E3583661}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C1F6123D-22F8-4533-AD56-08A7E3583661}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E3DF5C2-8A38-4A03-86D7-8D463C917E47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E3DF5C2-8A38-4A03-86D7-8D463C917E47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E3DF5C2-8A38-4A03-86D7-8D463C917E47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E3DF5C2-8A38-4A03-86D7-8D463C917E47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7928F38-36D2-4EAE-8EC1-3252D3F3C62F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7928F38-36D2-4EAE-8EC1-3252D3F3C62F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7928F38-36D2-4EAE-8EC1-3252D3F3C62F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7928F38-36D2-4EAE-8EC1-3252D3F3C62F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B53DA23-A3E3-42B3-9F6B-26539CB52EC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B53DA23-A3E3-42B3-9F6B-26539CB52EC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B53DA23-A3E3-42B3-9F6B-26539CB52EC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B53DA23-A3E3-42B3-9F6B-26539CB52EC5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -114,7 +128,6 @@ Global
 		{7BFDA634-9654-44D8-AE0E-FDCA6284516D} = {436CD2F6-978E-4148-B693-334AB26ED6E4}
 		{02104D08-4788-42C8-918C-E760E26AFB3D} = {242C3CB9-6C1E-4582-B1B0-B4E84409A505}
 		{BCCB1E48-EA08-4449-A2A9-C165337F3FB2} = {0B74D41C-D81D-4599-A2E1-F6DDEC0D4D21}
-		{2E3DF5C2-8A38-4A03-86D7-8D463C917E47} = {2B2AEE4E-55ED-41BE-A58C-2BEA14009804}
 		{18754433-15C4-4478-AC06-C68533451FF2} = {436CD2F6-978E-4148-B693-334AB26ED6E4}
 		{7F3C4879-FD24-4E39-AAFF-417088D2EB9A} = {BCCB1E48-EA08-4449-A2A9-C165337F3FB2}
 		{CF05EEDF-1CF9-4D6E-83E4-420A66B0A15B} = {0B74D41C-D81D-4599-A2E1-F6DDEC0D4D21}
@@ -126,67 +139,9 @@ Global
 		{531B5458-131B-45D1-8268-0887A57FB30F} = {0B74D41C-D81D-4599-A2E1-F6DDEC0D4D21}
 		{6CC74BAD-59DE-4481-B8D4-299E040FC94C} = {915EDA1F-EA1E-4871-900C-B797FD9731BA}
 		{C1F6123D-22F8-4533-AD56-08A7E3583661} = {242C3CB9-6C1E-4582-B1B0-B4E84409A505}
-	EndGlobalSection
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 15
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = http://tfs:8080/tfs/timvi
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = ClientExtensionsBase\\ClientExtensionsBase.csproj
-		SccProjectTopLevelParentUniqueName1 = QuaternionServer.sln
-		SccProjectName1 = ClientExtensionsBase
-		SccLocalPath1 = ClientExtensionsBase
-		SccProjectUniqueName2 = UnityExtension\\UnityExtension.csproj
-		SccProjectTopLevelParentUniqueName2 = QuaternionServer.sln
-		SccProjectName2 = UnityExtension
-		SccLocalPath2 = UnityExtension
-		SccProjectUniqueName3 = Tests\\Tests.csproj
-		SccProjectTopLevelParentUniqueName3 = QuaternionServer.sln
-		SccProjectName3 = Tests
-		SccLocalPath3 = Tests
-		SccProjectUniqueName4 = Transport\\Transport.csproj
-		SccProjectTopLevelParentUniqueName4 = QuaternionServer.sln
-		SccProjectName4 = Transport
-		SccLocalPath4 = Transport
-		SccProjectUniqueName5 = ObjectsPool\\ObjectsPool.csproj
-		SccProjectTopLevelParentUniqueName5 = QuaternionServer.sln
-		SccProjectName5 = ObjectsPool
-		SccLocalPath5 = ObjectsPool
-		SccProjectUniqueName6 = SocketServer\\SocketServer.csproj
-		SccProjectTopLevelParentUniqueName6 = QuaternionServer.sln
-		SccProjectName6 = SocketServer
-		SccLocalPath6 = SocketServer
-		SccProjectUniqueName7 = Plugin\\PluginBase.csproj
-		SccProjectTopLevelParentUniqueName7 = QuaternionServer.sln
-		SccProjectName7 = Plugin
-		SccLocalPath7 = Plugin
-		SccProjectUniqueName8 = PluginLauncher\\PluginLauncher.csproj
-		SccProjectTopLevelParentUniqueName8 = QuaternionServer.sln
-		SccProjectName8 = PluginLauncher
-		SccLocalPath8 = PluginLauncher
-		SccProjectUniqueName9 = Test\\SocketServerLauncher\\SocketServerLauncher.csproj
-		SccProjectTopLevelParentUniqueName9 = QuaternionServer.sln
-		SccProjectName9 = Test/SocketServerLauncher
-		SccLocalPath9 = Test\\SocketServerLauncher
-		SccProjectUniqueName10 = Test\\SocketServerClient\\SocketServerClient.csproj
-		SccProjectTopLevelParentUniqueName10 = QuaternionServer.sln
-		SccProjectName10 = Test/SocketServerClient
-		SccLocalPath10 = Test\\SocketServerClient
-		SccProjectUniqueName11 = Launcher\\Launcher.csproj
-		SccProjectTopLevelParentUniqueName11 = QuaternionServer.sln
-		SccProjectName11 = Launcher
-		SccLocalPath11 = Launcher
-		SccProjectUniqueName12 = BosonProtocol\\QuaternionProtocol.csproj
-		SccProjectTopLevelParentUniqueName12 = QuaternionServer.sln
-		SccProjectName12 = BosonProtocol
-		SccLocalPath12 = BosonProtocol
-		SccProjectUniqueName13 = GameBasePlugin\\GameBasePlugin.csproj
-		SccProjectTopLevelParentUniqueName13 = QuaternionServer.sln
-		SccProjectName13 = GameBasePlugin
-		SccLocalPath13 = GameBasePlugin
-		SccProjectUniqueName14 = ClientPluginBase\\ClientGamePlugin.csproj
-		SccProjectTopLevelParentUniqueName14 = QuaternionServer.sln
-		SccProjectName14 = ClientPluginBase
-		SccLocalPath14 = ClientPluginBase
+		{2E3DF5C2-8A38-4A03-86D7-8D463C917E47} = {2B2AEE4E-55ED-41BE-A58C-2BEA14009804}
+		{28ABB218-7A8B-485C-888E-9F663878A48A} = {915EDA1F-EA1E-4871-900C-B797FD9731BA}
+		{C7928F38-36D2-4EAE-8EC1-3252D3F3C62F} = {28ABB218-7A8B-485C-888E-9F663878A48A}
+		{5B53DA23-A3E3-42B3-9F6B-26539CB52EC5} = {2B2AEE4E-55ED-41BE-A58C-2BEA14009804}
 	EndGlobalSection
 EndGlobal

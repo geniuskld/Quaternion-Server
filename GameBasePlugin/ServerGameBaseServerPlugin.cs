@@ -1,10 +1,11 @@
 ﻿#region
 
+using System;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Linq;
 using GameBasePlugin.Commands.TCP;
-using GameBasePlugin.ProtocolWrapers;
+using GameBasePlugin.ProtocolWrappers;
 using QuaternionProtocol.Protocol;
 using Transport;
 using Transport.Connections;
@@ -16,6 +17,9 @@ namespace GameBasePlugin
 {
     public class ServerGameBaseServerPlugin : PluginBase.ServerPluginBase
     {
+        public static event EventHandler<PeerBase> OnGameJoin;
+        public static event EventHandler<PeerBase> OnGameLeft;
+
         public override string PluginName => "ServerGameBaseServerPlugin";
         public override string AppId { get; }
 
@@ -41,7 +45,7 @@ namespace GameBasePlugin
                 }
             }
         }
-
+        
         private void GameServerPluginOnClientDisconnected(object sender, ServerConnectionBase connection)
         {
             var peersList = UsersInScenes.FirstOrDefault(x => x.Value.Contains(connection.Peer));
@@ -53,10 +57,20 @@ namespace GameBasePlugin
                 var leaveResponse = new LeaveResponse {ConnectionId = connection.ConnectionId, IsOk = true};
                 foreach (var peer in peersList.Value)
                 {
-                    var cmd = BinaryProcolHelper<LeaveResponse>.GetProtocol(leaveResponse);
+                    var cmd = BinaryProtocolHelper<LeaveResponse>.GetProtocol(leaveResponse);
                     peer.Connections.First().Value?.SendData(cmd);
                 }
             }
+        }
+
+        public static void RaiseGameJoin(PeerBase e)
+        {
+            OnGameJoin?.Invoke(null, e);
+        }
+
+        public static void RaiseGameLeft(PeerBase e)
+        {
+            OnGameLeft?.Invoke(null, e);
         }
     }
 }

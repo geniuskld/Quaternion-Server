@@ -1,8 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Runtime.Serialization;
-using GameBasePlugin.ProtocolWrapers;
-using QuaternionProtocol;
-using Transport;
+using GameBasePlugin.ProtocolWrappers;
 using Transport.CommandsBase;
 using Transport.Connections;
 using Transport.Connections.Peers;
@@ -14,6 +12,9 @@ namespace GameBasePlugin.Commands.TCP
     {
         [DataMember]
         public string GameName { get; set; }
+        [DataMember]
+        public string ClientId { get; set; }
+
         public void Execute<T>(ServerConnection<T> connection, IServerCommand entity)
         {
             var joinCmd = (JoinRequest)entity;
@@ -26,10 +27,11 @@ namespace GameBasePlugin.Commands.TCP
                     peersList.Add(connection.Peer);
 
                     var cmd = new JoinResponse { IsOk = true, ConnectionId = connection.ConnectionId };
-                    var response = BinaryProcolHelper<JoinResponse>.GetProtocol(cmd);
+                    var response = BinaryProtocolHelper<JoinResponse>.GetProtocol(cmd);
                     connection.SendData(response);
 
                     ServerGameBaseServerPlugin.SendToGamePlayers(joinCmd.GameName, response);
+                    ServerGameBaseServerPlugin.RaiseGameJoin(connection.Peer);
                 }
             }
         }
