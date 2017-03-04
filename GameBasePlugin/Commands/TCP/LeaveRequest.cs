@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.Serialization;
-using GameBasePlugin.ProtocolWrapers;
+using GameBasePlugin.ProtocolWrappers;
 using Transport;
 using Transport.CommandsBase;
 using Transport.Connections;
@@ -29,6 +29,7 @@ namespace GameBasePlugin.Commands.TCP
                 if (connInGame != null)
                 {
                     leaveResponse.IsOk = true;
+                    ServerGameBaseServerPlugin.RaiseGameLeft(connInGame);
                     connections.Remove(connInGame);
                 }
                 leaveResponse.OperationDetails = "User not in game";
@@ -39,10 +40,11 @@ namespace GameBasePlugin.Commands.TCP
             }
 
             leaveResponse.ConnectionId = connection.ConnectionId;
-            var cmd = BinaryProcolHelper<LeaveResponse>.GetProtocol(leaveResponse);
+            var cmd = BinaryProtocolHelper<LeaveResponse>.GetProtocol(leaveResponse);
             connection.SendData(cmd);
 
             ServerGameBaseServerPlugin.SendToGamePlayers(leaveRequest.GameName, cmd);
+           
         }
     }
 }

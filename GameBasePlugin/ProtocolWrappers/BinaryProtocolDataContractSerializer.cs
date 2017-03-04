@@ -2,9 +2,9 @@
 using QuaternionProtocol.Protocol.Binary;
 using QuaternionProtocol.Serializers;
 
-namespace GameBasePlugin.ProtocolWrapers
+namespace GameBasePlugin.ProtocolWrappers
 {
-    public static class BinaryProcolHelper<T> where T : new()
+    public static class BinaryProtocolHelper<T> where T : new()
     {
         public static ProtocolBase<byte[]> GetProtocol(T data)
         {
